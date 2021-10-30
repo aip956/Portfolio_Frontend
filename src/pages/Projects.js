@@ -19,18 +19,29 @@ useEffect(() => getProjectsData(), []);
 
 // Define a function that will return the JSX needed once we get the data
 const loaded = () => {
-    return projects.map((project) => (
-    <div>
-        <h1>{project.name}</h1>
-        <img src={project.image} />
-        <a href={project.git}>
-            <button>Github</button>
-        </a>
-        <a href={project.live}>
-            <button>live site</button>
-        </a>
+    const projectsList =        
+       projects.map((project) => (
+            <div className="project">
+                <h1>{project.name}</h1>
+                <img src={project.image} />
+                <a href={project.git}>
+                    <button>Github</button>
+                </a>
+                <a href={project.live}>
+                    <button>live site</button>
+                </a>
+            </div>)
+        )
+        
+
+
+
+    return (
+    <div className="projects">
+        {projectsList}
     </div>
-));
+
+)
 };
 
 // If data arrives, return the result of loaded; if not, an h1 that says "loading"

@@ -11,6 +11,7 @@ const navStyle = {
     margin: "auto",
     boxShadow: "10px 5px 5px black",
     borderRadius: "10px",
+    backgroundColor: "coral",
 };
 
     return (

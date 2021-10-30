@@ -12,8 +12,33 @@ body {
 h1, a {
   color: white;
   text-align: center;
+ 
 }
 
+.project {
+  border: 3px solid black;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  box-shadow: 10px 5px 5px black,
+
+}
+
+button {
+  border-radius: 10px;
+}
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
