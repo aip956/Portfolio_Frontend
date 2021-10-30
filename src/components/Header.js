@@ -4,11 +4,13 @@ function Header(props) {
     // Inline styel for the nav tag
 const navStyle = {
     display: "flex",
-    justifyContent: "space-around",
+    justifyContent: "space-between",
     border: "3px solid black",
     padding: "8px",
     width: "90%",
     margin: "auto",
+    boxShadow: "10px 5px 5px black",
+    borderRadius: "10px",
 };
 
     return (

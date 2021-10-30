@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,7 +6,14 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  font-family: Lato;
+  background-color: gray;
 }
+h1, a {
+  color: white;
+  text-align: center;
+}
+
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
